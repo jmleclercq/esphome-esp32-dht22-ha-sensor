@@ -75,7 +75,7 @@ Ce fichier configure :
 * Le capteur DHT22
 * Une mise à jour toutes les 60 secondes
 
-* Il faut l'éditer afin d'adapter les identifiants wifi, le GPIO
+* Il faut l'éditer afin d'adapter les identifiants wifi, l'OTA password et les données de configurationIP
 
 ---
 
