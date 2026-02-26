@@ -66,29 +66,7 @@ esphome version
 ## 📝 Exemple de configuration YAML
 
 Créer un fichier nommé :
-
-```
-capteur_salon.yaml
-```
-
-Contenu :
-
-```yaml
-esphome:
-  name: capteur_salon
-
-esp32:
-  board: esp32dev
-
-sensor:
-  - platform: dht
-    pin: GPIO4
-    temperature:
-      name: "Température Salon"
-    humidity:
-      name: "Humidité Salon"
-    update_interval: 60s
-```
+[Configuration YAML](config.yaml)
 
 Ce fichier configure :
 
@@ -96,6 +74,8 @@ Ce fichier configure :
 * La carte ESP32 utilisée
 * Le capteur DHT22
 * Une mise à jour toutes les 60 secondes
+
+* Il faut l'éditer afin d'adapter les identifiants wifi, le GPIO
 
 ---
 
